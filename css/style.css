@@ -6,9 +6,11 @@
     font-family: sans-serif;
 }
 
+
+
 img{
     max-width: 100%;
-    display:inline-block ;
+
 }
 
 ul,ol,menu{
@@ -34,9 +36,11 @@ a{
 }
 
 .col-4{
+    
     position: relative;
     width: calc(4 * 100% / 12);
     padding: 15px;
+    
 }
 
 /* STYLE */
@@ -61,6 +65,26 @@ a{
     top: 20px;
     right: 15px;
 
+}
+
+.second-image{
+   
+    display: none;
+    
+    
+}
+
+
+.col-4:hover .main-image{
+    display: none;
+}
+
+.col-4:hover .second-image{
+    display: inline-block;
+}
+
+.heart:hover{
+    color: red;
 }
 
 /*UTILITY*/
