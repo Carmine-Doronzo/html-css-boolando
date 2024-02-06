@@ -43,7 +43,7 @@ a{
 }
 
 .col-nav{
-    width: calc(4 * 100% / 12);
+    width: calc(3 * 100% / 6);
     
 }
 
@@ -59,6 +59,21 @@ a{
     width: calc(4 * 100% / 12);
     padding: 15px;
     
+    
+}
+
+.col-foot{
+
+    width: calc(2* 100% / 6);
+
+}
+
+.row-foot{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
 }
 
 /* STYLE */
@@ -109,6 +124,15 @@ a{
     padding: 10px 0;
 }
 
+.icone{
+    font-size: 10px;
+}
+
+.pallino{
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
 /*UTILITY*/
 
 .position{
@@ -136,13 +160,23 @@ a{
     font-size: 14px;
 }
 
-.padd-left{
-    padding-left: 472px;
+.font-size{
+    font-size: 10px;
 }
 
-.padd-right{
-    padding-right: 360px;
+.grow{
+    flex-grow: 1;
 }
+
+.padd-orizz{
+    padding:0 170px;
+}
+
+.padd-vert{
+    padding:20px 0;
+}
+
+
 
 .font-red{
     color: red;
@@ -167,4 +201,8 @@ a{
 
 .bg-orange{
     background-color: orange;
+}
+
+.bg-gray{
+    background-color: #333;
 }
