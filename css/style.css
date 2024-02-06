@@ -8,6 +8,7 @@
 
 img{
     max-width: 100%;
+    display:inline-block ;
 }
 
 ul,ol,menu{
@@ -18,4 +19,21 @@ a{
     text-decoration: none;
     color: currentColor;
     display: inline-block;
+}
+
+/* LAYOUT */
+.container{
+    max-width: 100%;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-4{
+    width: calc(4 * 100% / 12);
+    padding: 15px;
 }
