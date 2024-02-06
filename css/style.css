@@ -34,6 +34,20 @@ a{
 }
 
 .col-4{
+    position: relative;
     width: calc(4 * 100% / 12);
     padding: 15px;
+}
+
+/* STYLE */
+.badge{
+    position: absolute;
+    display:inline-block ;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    bottom: 45px;
+    left: 10px;
 }
