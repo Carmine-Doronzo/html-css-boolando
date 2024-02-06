@@ -29,13 +29,25 @@ a{
     margin:auto;
 }
 
-.row{
+.row-nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.col-nav{
+    width: calc(4 * 100% / 12);
+    
+}
+
+.row-main{
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.col-4{
+.col-main{
     
     position: relative;
     width: calc(4 * 100% / 12);
@@ -74,11 +86,11 @@ a{
 }
 
 
-.col-4:hover .main-image{
+.col-main:hover .main-image{
     display: none;
 }
 
-.col-4:hover .second-image{
+.col-main:hover .second-image{
     display: inline-block;
 }
 
@@ -110,4 +122,8 @@ a{
 
 .bg-white{
     background-color: white;
+}
+
+.bg-orange{
+    background-color: orange;
 }
