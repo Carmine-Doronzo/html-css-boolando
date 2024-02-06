@@ -45,7 +45,7 @@ a{
 
 /* STYLE */
 .badge{
-    position: absolute;
+    
     display:inline-block ;
     color: white;
     padding: 5px;
@@ -88,6 +88,11 @@ a{
 }
 
 /*UTILITY*/
+
+.position{
+    position: absolute;
+
+}
 
 .left{
     left: 53px;
