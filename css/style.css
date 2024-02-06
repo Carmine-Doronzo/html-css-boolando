@@ -104,6 +104,11 @@ a{
     color: red;
 }
 
+.nav-logo{
+    max-width: 150px;
+    padding: 10px 0;
+}
+
 /*UTILITY*/
 
 .position{
@@ -129,6 +134,14 @@ a{
 .line-through{
     text-decoration:line-through;
     font-size: 14px;
+}
+
+.padd-left{
+    padding-left: 472px;
+}
+
+.padd-right{
+    padding-right: 360px;
 }
 
 .font-red{
