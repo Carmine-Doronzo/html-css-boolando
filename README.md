@@ -1,0 +1,1 @@
+In questo esercizio replico un sito simil Zalando, che serviva a confermare le nozioni apprese a lezione sulle pseudo-classi come per esempio l' :hover
